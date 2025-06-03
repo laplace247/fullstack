@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const filaGasto = document.createElement("tr");
         filaGasto.innerHTML = `
             <td>${descripcionGasto}</td>
-            <td>S/. ${montoGasto}</td>
+            <td>${montoGasto}</td>
             <td>${categoriaGasto}</td>
             <td><button class="botonEliminar">Eliminar</button></td>
         `;
